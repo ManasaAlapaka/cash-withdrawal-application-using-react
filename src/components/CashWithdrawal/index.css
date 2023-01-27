@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.logo {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+}
+.background-con {
+  padding: 20px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.inner-con {
+  background-color: #150b3e;
+
+  border-radius: 10px;
+  padding: 20px;
+  width: 35%;
+}
+.logo {
+  padding: 20px;
+  border-radius: 30px;
+  width: 60px;
+  text-align: center;
+  font-weight: 500;
+}
+.person-name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 22px;
+  margin-left: 20px;
+}
+.details-div {
+  display: flex;
+
+  align-items: center;
+}
+.balance-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.balance {
+  color: #d4d2db;
+  font-size: 22px;
+  font-weight: 500;
+}
+.balance-con {
+  display: flex;
+  justify-content: space-between;
+}
+.rupees-text {
+  color: #585076;
+  font-family: 'Roboto';
+}
+.withdraw-text {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22px;
+}
+.choose-sum-text {
+  color: #585076;
+  font-family: 'Roboto';
+}
+.money-con {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.money {
+  background-color: #382f5a;
+  color: #d4d2db;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #c4c4c4;
+  border-width: 1px;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.u-l {
+  list-style-type: none;
+  padding-left: 0px;
+}
